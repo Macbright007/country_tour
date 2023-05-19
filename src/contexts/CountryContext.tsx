@@ -16,13 +16,22 @@ export type CountryProps = {
     name: {
         common: string;
     };
+    altSpellings: string[];
+    continents: string[];
+    timezones: string[];
     id: string;
     flags:{
         svg: string;
     };
     population: number;
     region: string;
+    subregion: string;
     capital: string[];
+    tld:string[];
+    car:{
+        side:string;
+    }
+
 }
 
 // const CountryContext = createContext<CountryContextProps | ({})>;

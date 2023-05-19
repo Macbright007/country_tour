@@ -5,12 +5,7 @@ import { Wrapper } from './Styles'
 import CountryCard from './CountryCard'
 import {useContext} from "react"
 import CountryContext from '../contexts/CountryContext'
-import { CountryContextProps } from '../contexts/CountryContext' 
 
-
-type Props = {
- 
-}
 
 const CountryList = () => {
   const {countryDetails} = useContext(CountryContext)

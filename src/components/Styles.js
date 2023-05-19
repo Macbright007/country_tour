@@ -67,10 +67,13 @@ export const Wrapper = styled.section`
   .search__filter {
     display: flex;
     justify-content: space-between;
+    // border: 2px solid blue;
+    // width: 100%;
+    // max-width: 1350px;
   }
 
   .card__wrapper{
-    // border: 2px solid blue;
+    // border: 2px solid green;
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -85,14 +88,17 @@ export const Card = styled.div`
   border-radius: 10px;
   width: 100%;
   max-width: 270px;
-  height: 50vh;
+  background: #fff;
+
+  height: 60vh;
+//   background: red;
 
   .img__container{
     // border: 2px solid red;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    height: 50%;
+    height: 45%;
   }
 
   .img__container img{
@@ -101,14 +107,17 @@ export const Card = styled.div`
     border-bottom-right-radius: 0;
     height: 100%;
     width: 100%;
-    object-fit: fit;
+    object-fit: cover;
   }
 
   .content{
-    // border: 2px solid blue;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-radius: 10px;
     // background: red;
     background: #fff;
-    width: 78%;
-    padding: 0 1.9rem;
+    width: 77.5%;
+    height: 20vh;
+    padding: 0 1.9rem 2rem ;
   }
 `;
