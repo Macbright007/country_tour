@@ -8,7 +8,7 @@ export const Navigation = styled.nav`
 
   .nav__nav {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ export const Wrapper = styled.section`
   .main__wrapper {
     // border: 2px solid blue;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 3rem auto;
   }
   .search__filter {
@@ -121,3 +121,57 @@ export const Card = styled.div`
     padding: 0 1.9rem 2rem ;
   }
 `;
+
+export const DetailWrapper = styled.section`
+//   border: 2px solid red;
+
+  .inner__wrapper{
+    // border: 2px solid black;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  .detail_content{
+    // border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+
+  .img__cont{
+    // border: 2px solid green;
+    width: 50%;
+  }
+  .img__cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+  }
+
+  .country__details{
+    // border: 2px solid blue;
+    padding: 0 3rem;
+    width: 50%;
+  }
+
+  .details{
+    // border: 2px solid red;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .details h5{
+    font-weight: 500;
+  }
+  .country__details h2{
+    margin-left: 1rem;
+    margin-bottom: -1rem;
+  }
+  .country__details h4{
+    margin-left: 1rem;
+    // color: red;
+  }
+`
